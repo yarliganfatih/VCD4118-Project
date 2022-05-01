@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatih Yarlıgan</title>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/row.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/table.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <style>
+        body{
+            padding-top: 40px;
+            text-align: center;
+        }
+       .main-carousel{
+            width: 350px;
+        }
+        section{
+            margin-top: 50px;
+        }
+        footer{
+            margin-top: 50px;
+            padding-top: 15px;
+            font-size: 20px;
+            background-color: #333;
+            height: 48px;
+            width: 100%;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+    <nav>
+        <div class="navbar" id="myNavbar">
+            <a href="#home" class="logo"></a>
+            <a href="#home" class="active">Home</a>
+            <a href="#cards">Cards</a>
+            <a href="#table">Table</a>
+            <a href="#campaigns">Campaigns</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        <script>
+            /* Toggle between adding and removing the "responsive" class to the navbar when the user clicks on the icon */
+            function myFunction() {
+            var x = document.getElementById("myNavbar");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+            }
+        </script>
+    </nav>
+    <section id="cards" class="row">
+        <div class="column">
+            <div class="card">
+                <div class="img" style="background:url('assets/photos/image1.jpg');"></div>
+                <div class="content">
+                    <div></div>
+                    <div>
+                        <div class="title">Doner roll</div>
+                        <div class="desc">meat, greens, tomatoes</div>
+                    </div>
+                    <div class="price">3.99$</div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="img" style="background:url('assets/photos/image2.jpg');"></div>
+                <div class="content">
+                    <div></div>
+                    <div>
+                        <div class="title">Black Burger</div>
+                        <div class="desc">special burger bun</div>
+                    </div>
+                    <div class="price">9.99$</div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="img" style="background:url('assets/photos/image3.jpg');"></div>
+                <div class="content">
+                    <div></div>
+                    <div>
+                        <div class="title">Cheese Burger</div>
+                        <div class="desc">with cheddar cheese</div>
+                    </div>
+                    <div class="price">8.49$</div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="img" style="background:url('assets/photos/image4.jpg');"></div>
+                <div class="content">
+                    <div></div>
+                    <div>
+                        <div class="title">Chicken Doner</div>
+                        <div class="desc">chicken meat, greens, tomatoes</div>
+                    </div>
+                    <div class="price">7.99$</div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="img" style="background:url('assets/photos/image5.jpg');"></div>
+                <div class="content">
+                    <div></div>
+                    <div>
+                        <div class="title">Dessert</div>
+                        <div class="desc">with chocolate sauce</div>
+                    </div>
+                    <div class="price">8.99$</div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="img" style="background:url('assets/photos/image6.jpg');"></div>
+                <div class="content">
+                    <div></div>
+                    <div>
+                        <div class="title">Grilled Meat</div>
+                        <div class="desc">served hot</div>
+                    </div>
+                    <div class="price">11.99$</div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="img" style="background:url('assets/photos/image7.jpg');"></div>
+                <div class="content">
+                    <div></div>
+                    <div>
+                        <div class="title">The Mixed Grill</div>
+                        <div class="desc">special menu</div>
+                    </div>
+                    <div class="price">12.99$</div>
+                </div>
+            </div>
+        </div>
+        <div></div>
+    </section>
+    <section id="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <th>Doner roll</th>
+                    <td>meat, greens, tomatoes</td>
+                    <td>3.99$</td>
+                </tr>
+                <tr>
+                    <th>Black Burger</th>
+                    <td>special burger bun</td>
+                    <td>9.99$</td>
+                </tr>
+                <tr>
+                    <th>Cheese Burger</th>
+                    <td>with cheddar cheese</td>
+                    <td>8.49$</td>
+                </tr>
+                <tr>
+                    <th>Chicken Doner</th>
+                    <td>chicken meat, greens, tomatoes</td>
+                    <td>7.99$</td>
+                </tr>
+                <tr>
+                    <th>Dessert</th>
+                    <td>with chocolate sauce</td>
+                    <td>8.99$</td>
+                </tr>
+                <tr>
+                    <th>Grilled Meat</th>
+                    <td>served hot</td>
+                    <td>11.99$</td>
+                </tr>
+                <tr>
+                    <th>The Mixed Grill</th>
+                    <td>special menu</td>
+                    <td>12.99$</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="campaigns">
+        <div class="main-carousel">
+            <div class="carousel-cell">
+                <img src="assets/campaigns/banner1.png" height="300">
+            </div>
+            <div class="carousel-cell">
+                <img src="assets/campaigns/banner2.png" height="300">
+            </div>
+            <div class="carousel-cell">
+                <img src="assets/campaigns/banner3.png" height="300">
+            </div>
+            <div class="carousel-cell">
+                <img src="assets/campaigns/banner4.png" height="300">
+            </div>
+        </div>
+        <script>
+            var elem = document.querySelector('.main-carousel');
+            var flkty = new Flickity(elem, {
+                // options
+                cellAlign: 'left',
+                contain: true
+            });
+    
+            // element argument can be a selector string
+            //   for an individual element
+            var flkty = new Flickity('.main-carousel', {
+                // options
+            });
+        </script>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            developed by Fatih Yarlıgan
+        </div>
+    </footer>
+</center>
+</body>
+
+</html>
