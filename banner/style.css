@@ -1,0 +1,318 @@
+@charset "utf-8";
+@import "https://fonts.googleapis.com/css?family=Exo+2:400,500,600&subset=cyrillic";
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  background-color: #efefef;
+  background-image: url('assets/bg.png');
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.container[data-size="300x600"] {
+  width: 300px;
+  height: 600px;
+}
+
+.round {
+  width: 400px;
+  height: 520px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -120px 0 0 -200px;
+  transform-origin: center;
+}
+
+.round .wing {
+  -webkit-animation: 4.8s forwards Triple ease-in-out infinite;
+  animation: 4.8s forwards Triple ease-in-out infinite;
+  -webkit-animation-delay: 0;
+  animation-delay: 0;
+  opacity: 0;
+  position: absolute;
+  height: 460px;
+  width: 180px;
+  transform-origin: center;
+  left: 50%;
+  top: 0;
+  margin: 0 0 0 -90px;
+}
+
+.round .wing2 {
+  -webkit-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+}
+
+.round .wing3 {
+  -webkit-animation-delay: 3.2s;
+  animation-delay: 3.2s;
+}
+
+@keyframes Triple {
+  0% {
+    transform: rotate(240deg);
+    opacity: 0;
+  }
+
+  20% {
+    transform: rotate(240deg);
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  33% {
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+
+  53% {
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+
+  58% {
+    opacity: 0;
+  }
+
+  66% {
+    transform: rotate(480deg);
+    opacity: 0;
+  }
+
+  87% {
+    transform: rotate(120deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: rotate(120deg);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes Triple {
+  0% {
+    transform: rotate(240deg);
+    opacity: 0;
+  }
+
+  20% {
+    transform: rotate(240deg);
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  33% {
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+
+  53% {
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+
+  58% {
+    opacity: 0;
+  }
+
+  66% {
+    transform: rotate(480deg);
+    opacity: 0;
+  }
+
+  87% {
+    transform: rotate(120deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: rotate(120deg);
+    opacity: 0;
+  }
+}
+
+.wing2 {
+  transform: rotate(120deg);
+}
+
+.wing3 {
+  transform: rotate(240deg);
+}
+
+.eye,
+.eyes {
+  -webkit-animation: 1.5s BlinkEm infinite;
+  animation: 1.5s BlinkEm infinite;
+}
+
+@-webkit-keyframes BlinkEm {
+  15% {
+    opacity: 1;
+    fill: #a90505;
+  }
+
+  20% {
+    opacity: 0;
+    fill: rgba(0, 0, 0, 0);
+  }
+
+  25% {
+    opacity: 1;
+    fill: #a90505;
+  }
+
+  30% {
+    opacity: 1;
+    fill: #a90505;
+  }
+
+  35% {
+    opacity: 0;
+    fill: rgba(0, 0, 0, 0);
+  }
+
+  40% {
+    opacity: 1;
+    fill: #a90505;
+  }
+}
+
+@keyframes BlinkEm {
+  15% {
+    opacity: 1;
+    fill: #a90505;
+  }
+
+  20% {
+    opacity: 0;
+    fill: rgba(0, 0, 0, 0);
+  }
+
+  25% {
+    opacity: 1;
+    fill: #a90505;
+  }
+
+  30% {
+    opacity: 1;
+    fill: #a90505;
+  }
+
+  35% {
+    opacity: 0;
+    fill: rgba(0, 0, 0, 0);
+  }
+
+  40% {
+    opacity: 1;
+    fill: #a90505;
+  }
+}
+
+.titleBar {
+  display: block;
+  position: relative;
+  margin: 32px;
+  max-width: 100%;
+}
+
+.titleBar:before {
+  content: "";
+  display: block;
+  height: 200%;
+  width: 12px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background-color: rgba(239, 239, 239, 0.5);
+  z-index: 5;
+  transform: translate(0, -50%) rotate(45deg);
+  box-shadow: 0 0 12px rgba(239, 239, 239, 0.75);
+  -webkit-animation: Bleek 5s linear infinite;
+  animation: Bleek 5s linear infinite;
+}
+
+@-webkit-keyframes Bleek {
+  0% {
+    left: -200px;
+  }
+
+  50%,
+  100% {
+    left: 120%;
+  }
+}
+
+@keyframes Bleek {
+  0% {
+    left: -200px;
+  }
+
+  50%,
+  100% {
+    left: 120%;
+  }
+}
+
+.titleBar span,
+.titleBar svg {
+  display: block;
+  max-width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.titleBar span.gd {
+  max-width: 35%;
+  margin: 5% auto 0;
+}
+
+.title {
+  font-size: xx-large;
+  font-weight: bold;
+  color: #a90505;
+  top: -15px;
+  position: relative;
+}
+
+.fullRouter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.orderButton {
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  bottom: 64px;
+  font-weight: 500;
+  transform: translate(-50%, 0);
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 0.25em 0.5em;
+  border-radius: 3px;
+  font-family: "Exo 2";
+  color: #a90505;
+  font-weight: 600;
+  background: linear-gradient(#a90505 0 0) left / var(--p, 0) no-repeat;
+  transition: .4s, background-position 0s;
+}
+
+.orderButton:hover {
+  color: white;
+  --p: 100%;
+  background-position: bottom;
+}
