@@ -1,0 +1,240 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "BurgerMap.com",
+      "id": 1,
+      "attr": {
+        "position": [
+          -79,
+          -24,
+          1
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "Stakeholders",
+          "id": 2,
+          "ideas": {
+            "1": {
+              "title": "Customers",
+              "id": 5,
+              "ideas": {
+                "1": {
+                  "title": "Current",
+                  "id": 23,
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#00FF00"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Prospective",
+                  "id": 24,
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#33CCCC"
+                    }
+                  }
+                }
+              }
+            },
+            "2": {
+              "title": "Franchisees",
+              "id": 6,
+              "ideas": {
+                "1": {
+                  "title": "Current",
+                  "id": 26,
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#00FF00"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Prospective",
+                  "id": 27,
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#33CCCC"
+                    }
+                  }
+                }
+              }
+            },
+            "3": {
+              "title": "Company Departments",
+              "id": 7,
+              "ideas": {
+                "1": {
+                  "title": "Franchising",
+                  "id": 28
+                },
+                "2": {
+                  "title": "Human Resources",
+                  "id": 29
+                },
+                "3": {
+                  "title": "Marketing / PR",
+                  "id": 30,
+                  "ideas": {
+                    "1": {
+                      "title": "Social Media",
+                      "id": 38,
+                      "attr": {
+                        "style": {
+                          "backgroundColor": "#FF99CC"
+                        }
+                      }
+                    }
+                  }
+                },
+                "4": {
+                  "title": "Production",
+                  "id": 32
+                }
+              }
+            },
+            "4": {
+              "title": "Goverment",
+              "id": 37,
+              "attr": {
+                "style": {
+                  "backgroundColor": "#FFCC00"
+                }
+              }
+            },
+            "5": {
+              "title": "Suppliers",
+              "id": 43
+            }
+          }
+        },
+        "-1": {
+          "title": "Content",
+          "id": 3,
+          "ideas": {
+            "1": {
+              "title": "Products",
+              "id": 8,
+              "ideas": {
+                "1": {
+                  "title": "Types",
+                  "id": 14
+                },
+                "3": {
+                  "title": "Ingredients",
+                  "id": 16,
+                  "ideas": {
+                    "1": {
+                      "title": "Diet Suitability -> Vegan/Vegetarian",
+                      "id": 17
+                    }
+                  }
+                },
+                "4": {
+                  "title": "Portion Sizes",
+                  "id": 20,
+                  "ideas": {
+                    "1": {
+                      "title": "Prices",
+                      "id": 21,
+                      "attr": {
+                        "style": {
+                          "backgroundColor": "#CCFFFF"
+                        }
+                      }
+                    }
+                  }
+                },
+                "5": {
+                  "title": "Nutritional Values",
+                  "id": 22
+                },
+                "6": {
+                  "title": "Photos(s)",
+                  "id": 42,
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#FF9900"
+                    }
+                  }
+                }
+              }
+            },
+            "2": {
+              "title": "Shops",
+              "id": 9,
+              "ideas": {
+                "1": {
+                  "title": "Location",
+                  "id": 11,
+                  "ideas": {
+                    "1": {
+                      "title": "address",
+                      "id": 19
+                    },
+                    "2": {
+                      "title": "map",
+                      "id": 33
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Working Hours",
+                  "id": 13
+                },
+                "3": {
+                  "title": "Photo(s)",
+                  "id": 34,
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#FF9900"
+                    }
+                  }
+                }
+              }
+            },
+            "3": {
+              "title": "Franchising",
+              "id": 10,
+              "ideas": {
+                "1": {
+                  "title": "Terms and Conditions",
+                  "id": 35
+                },
+                "2": {
+                  "title": "Process",
+                  "id": 36
+                }
+              }
+            },
+            "4": {
+              "title": "Contact",
+              "id": 39,
+              "ideas": {
+                "1": {
+                  "title": "Contact us Form",
+                  "id": 41,
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#FFFF99"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "attr": {
+    "theme": "default"
+  },
+  "title": "BurgerMap.com",
+  "links": []
+}
